@@ -11,7 +11,7 @@ body {
   text-align:center;
   padding: 100px auto; 
   background-color:#83677B; 
-  margin-bottom:50px;
+  margin-bottom:10px;
 }
 
 /* controls the star coloring and placement in the header within the h1 tag */
@@ -24,7 +24,7 @@ body {
  /* controls the looks of the h1 tag in the html */
  h1 { 
     font-family: 'Libre Baskerville', serif;
-    font-size: 70px;
+    font-size: 64px;
     color: whitesmoke;
     font-variant:small-caps;
     margin: 0px auto 40px;
@@ -110,8 +110,9 @@ body {
   }
 
  /* controls the placement of the "contact-info" section in column 3 on the page */
- section.contact {
+ .contact {
    padding-left: 120px;  
+
  }
 
  /* controling the color of the email, github, and portfolio words */
@@ -124,19 +125,151 @@ body {
  .footer {
    /* margin-top: auto; 
    /* float:left; */
-   position:relative;
+   /* position:relative;
    bottom:0;
-   width:100%; */
+   width:100%; */ */
  }
 
  .footer {
-  padding: 30px;
+  /* padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
+  text-align: center; */
 }
 
 /* styles the footer of the document*/
 .footer h2 {
-  font-size: 20px;
+  /* font-size: 20px; */
 }
+
+/* div.row > div {
+  outline:1px solid grey;
+  padding:8px;
+  text-align:center;
+} */
+
+
+
+
+
+* body portion of CSS style controling background color */
+body {
+    background-color: lightgray; 
+ }
+
+  /* controls the design of the top header portion on all pages  */
+ header,.header {
+  text-align:center;
+  padding: 100px auto; 
+  background-color:#83677B; 
+  margin-bottom:50px;
+}
+
+/* controls the star coloring and placement in the header within the h1 tag */
+ h1 span {
+   color:#501B1D;
+   padding-right:30px;
+   padding-left:30px; 
+ }
+
+ /* controls the looks of the h1 tag in the html */
+ h1 { 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 70px;
+    color: whitesmoke;
+    font-variant:small-caps;
+    margin: 0px auto 40px;
+    widows: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+ }
+
+ /* controls the looks of the first h2 tag (my name) in the html */
+ h2.name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  color: rgb(54, 2, 52);
+ }
+
+ /* controls the looks of the second h2 tag (contact info) in the html */
+ .picture-2 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  color: rgb(54, 2, 52);
+  margin-top: 120px;
+ }
+
+ /* controls the color of the first-paragraph */
+ #first-paragraph.highlight {
+  color:rgb(54, 2, 52);
+}
+
+/* controls the color of the second-paragraph */
+ #second-paragraph.highlight {
+  color:rgb(54, 2, 52);
+ }
+
+/* controls the size and bordering around my picture */
+ img {
+   width: 270px;
+   height: auto;
+   border: 15px solid #501B1D;
+ }
+
+ /* helps with the layout of the float function */ 
+ .clearfix::after {
+ content: " ";
+ display: block;
+ clear: both; 
+ } 
+
+ /* containter of our page */
+ .container {
+   width: 2000px;
+   margin: 0 auto;
+ }
+
+ /* places element on left or right side of its container, allowing text to wrap around it */ 
+ section {
+   float:left;
+ }
+
+ /* controls the sizing and layout of the first and last sections */
+ section.name-image, section.picture-2 {
+   width:300px;
+   padding-left:100px;
+ }
+  
+ /* controls the sizing and layout of the middle section */ 
+ section.bio {
+  font-family: 'Heebo', sans-serif;
+   width: 400px;
+   margin-left:150px;
+   margin-top: 110px;
+   font-size: 22px;
+   padding-left: 50px;
+ }
+
+  /* controls the style of my contact informaiton and the color */
+  /* .contactColor span {
+    color: #501B1D;
+    font-size: 20px;  
+    font-family: 'Heebo', sans-serif; */
+  
+
+ /* controls the placement of the "contact-info" section in column 3 on the page */
+ /* section.picture-2 { */
+   /* padding-left: 220px;   */
+ /* } */
+
+ /* controling the color of the email, github, and portfolio words */
+ /* .contactColor {
+  font-family: 'Heebo', sans-serif;
+  color:#501B1D;
+  font-size:22px; */
+ 
+
+ .card {
+margin-top:100px
+ }
+

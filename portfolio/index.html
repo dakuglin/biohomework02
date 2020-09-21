@@ -2,59 +2,85 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Dana Kuglin- Portfolio Page</title>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> <!--contains two different fonts from google fonts-->
-    sheet from google can grab multiple styles in one google link for efficieny of brower-->
-    
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--bootstrap links-->
+  <title>Dana Kuglin- Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet"> <!--link containing two different fonts from google fonts--> 
+  <link rel="stylesheet" href="style.css"> <!--link to my CSS style sheet-->
 </head>
 
+
 <body>
-  <!--Site Header-->
-  <header>
-    <!-- h1: The most important headline -->
-     <h1> <span>&#10055 &#10055 &#10055</span> About Me Profile <span>&#10055 &#10055 &#10055</span></h1>
-  </header>
+  <!--This is for the nav bar at the top of our webpage-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Dana Kuglin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cat-portfolio/binx.html">Binx The Cat</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  <div class="container clearfix">
 
-    <!-- Section 1: Name and Image -->
-    <section class="name-image"> 
-      <h2 class="name">Dana Kuglin</h2>
-      <img class="picture" src="picture of me.jpg" alt="Dana Kuglin">  <!-- Image of me with link --> 
-    </section>
-    <!-- Section 2: Bio -->
-    <section class="bio">
-        <p id="first-paragraph" class="highlight"> <!-- Paragraph with embedded link -->
-            Hello! My name is Dana Kuglin. I am a chemical engineer learning how to code. I do not have
-            much coding experience, but I am excited to learn a new skillset. You can learn more aobut 
-            me by visiting my
-            <a href="http://www.linkedin.com/in/danakuglin" target="_blank"><span>LinkedIn Profile.</span> </a>
-        </p>
 
-        <p id="second-paragraph" class = highlight>  I absloutely love listening to music, and my favorite band of all time is <span>Aerosmith!</span>
-            Some of my hobbies include beading, reading, and shopping. 
-            I also enjoy being outdoors and spending time with family and friends. Below you will find a link to a site with information about my amazing cat named Binx!
-        </p>  
-   </section>
+      <!--Site Header-->
+      <header>
+        <!-- h1: The most important headline -->
+         <h1> <span>&#10055 &#10055 &#10055</span> About Me Profile <span>&#10055 &#10055 &#10055</span></h1>
+      </header>
 
-   <!-- Section 3: Contact Info -->
-   <section class= "contact">
-      <h2 class="contact-info">Contact Information</h2> <!-- h2: Tier-2 Headline -->
-      <ul> <!-- Unordered list -->
-        <li class=contactColor><strong>Email:</strong> <a href="#"><span>dakuglin@gmail.com</span></a></li>
-          <br>
-        <li class=contactColor><strong>Github:</strong> <a href="#"><span>dakuglin</span></a></li>
-            <br>
-        <li class=contactColor><strong>Portfolio:</strong> <a href="#"><span>coming soon</span></a></li>
-      </ul>
-    </section>
-  </div>
+    <!--Header--> 
+    <div class= "container justify-content-around"> <!--Only need to switch containers if you want to sytle things differently-->
+        <div class="row">
+            <div class="col-4" class="name-image">    
+            <!-- <section class="name-image">  -->
+                <h2 class="name">Dana Kuglin</h2>
+                <img class="picture" src="picture of me.jpg" alt="Dana Kuglin">  <!-- Image of me with link --> 
+            <!-- </section>-->
+        </div>
 
-  <footer>
-    <!-- <h2>Please visit this site to learn more about binx.</h2> -->
-    <a href="cat-portfolio/index2.html" target="_blank"> Please visit this site to <span>learn more about Binx</span> <!--link to portfolio page of binx-->
-  </footer>
+        <div class="col-4" class="bio">
+                <!-- <section class="bio"> -->
+                <p id="first-paragraph" class="highlight"> <!-- Paragraph with embedded link -->
+                     Hello! My name is Dana Kuglin. I am a chemical engineer learning how to code. I do not have much coding experience, but I am excited to learn a new skillset. You can learn more aobut me by visiting my
+                    <a href="http://www.linkedin.com/in/danakuglin" target="_blank"><span>LinkedIn Profile.</span> </a>
+                </p>
+            
+                <p id="second-paragraph" class = highlight>  
+                    I absloutely love listening to music, and my favorite band of all time is <span>Aerosmith!</span> Some of my hobbies include beading, reading, and shopping. I also enjoy being outdoors and spending time with family and friends. Below you will find a link to a site with information about my amazing cat named Binx!
+                </p>  
+                <!-- </section> -->
+        </div>
+<!-- 
+        <div class="col-4" class= "contact">
+                <section class= "contact"> -->
+                    <!-- <h2 class="contact-info">Contact Information</h2>  h2: Tier-2 Headline -->
+                    <ul> <!-- Unordered list 
+                      <li class=contactColor><strong>Email:</strong> <a href="#"><span>dakuglin@gmail.com</span></a></li>
+                        <br>
+                      <li class=contactColor><strong>Github:</strong> <a href="#"><span>dakuglin</span></a></li>
+                          <br>
+                      <li class=contactColor><strong>Portfolio:</strong> <a href="#"><span>coming soon</span></a></li>
+                    </ul> -
+                 </section> -->
+        <!-- </div> -->
+    </div> 
+
+</body>
+</html>
 </body>
 </html>
