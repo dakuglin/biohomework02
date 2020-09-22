@@ -176,3 +176,8 @@ body {
   padding-top:20px;
   padding-right: 40px;
 }
+
+.img-fluid {
+  max-width:100%;
+  height:auto;
+}
