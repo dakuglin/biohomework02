@@ -1,18 +1,13 @@
 
-/* This is the CSS style sheet for my portfolio html file */
+/* This is the CSS style sheet for my html files */
+
+/*#############################################################################################
+this is for common styling across the entire browser */
 
 /* body portion of CSS style controling background color */
 body {
     background-color: lightgray; 
  }
-
-  /* controls the design of the top header portion of the page  */
- header {
-  text-align:center;
-  padding: 100px auto; 
-  background-color:#83677B; 
-  margin-bottom:10px;
-}
 
 /* controls the star coloring and placement in the header within the h1 tag */
  h1 span {
@@ -21,99 +16,110 @@ body {
    padding-left:30px; 
  }
 
- /* controls the looks of the h1 tag in the html */
+ /* controls the looks of the h1 tag across all of the pages */
  h1 { 
-    font-family: 'Libre Baskerville', serif;
-    font-size: 64px;
-    color: whitesmoke;
-    font-variant:small-caps;
-    margin: 0px auto 40px;
-    widows: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;   
- }
-
- /* controls the looks of the first h2 tag (my name) in the html */
- h2.name {
   font-family: 'Libre Baskerville', serif;
-  font-size: 45px;
-  color: rgb(54, 2, 52);
-  /* text-decoration: underline; */
- }
-
- /* controls the looks of the second h2 tag (contact info) in the html */
- h2.contact-info {
-  font-family: 'Heebo', sans-serif;
-  font-size: 30px;
-  color: rgb(54, 2, 52);
-  margin-top: 120px;
- }
-
- /* controls the color of the first-paragraph */
- #first-paragraph.highlight {
-  color:rgb(54, 2, 52);
+  font-size: 70px;
+  color:  whitesmoke;
+  font-variant:small-caps;
+  margin: 0px auto 40px;
+  widows: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;   
 }
 
-/* controls the color of the second-paragraph */
- #second-paragraph.highlight {
-  color:rgb(54, 2, 52);
+/* controls the jumbotron picutre across all webpages */
+.jumbotron-jumbotron-fluid {
+  background-image: url(flowers.jpeg);
+}
+
+ /*##############################################################################################
+ starting to control only the look of the "about" page */
+
+ /* controls the looks of the first h2 tag my name on the about me page */
+ .myName {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  color: rgb(54, 2, 52); 
+  padding-top:20px;
  }
 
-/* controls the size and bordering around my picture */
- img {
-   width: 320px;
-   height: auto;
-   border: 15px solid rgb(54, 2, 52);
+ /* controls the border color and size of my picutre of me on the about page */
+ .img-fluid.pictureOfMe {
+  border: 15px solid rgb(54, 2, 52);
+  width: 200px;
+  /* max-width: 100%; */
+  height:auto;
  }
 
-
-
- /* helps with the layout of the float function */ 
- .clearfix::after {
- content: " ";
- display: block;
- clear: both; */
- } 
-
- /* containter of our page */
- .container {
-   width: 2000px;
-   margin: 0 auto;
- }
-
- /* places element on left or right side of its container, allowing text to wrap around it */ 
- section {
-   float:left;
- }
-
- /* controls the sizing and layout of the first and last sections */
- section.name-image, section.contact {
-   width:300px;
-   padding-left:200px;
- }
+  /* controls the color of the first-paragraph on about page*/
+  #first-paragraph.highlight {
+    color:rgb(54, 2, 52);
+    font-size: 25px;
+    padding-top:120px;
+    padding-left: 20px;
+  }
   
- /* controls the sizing and layout of the middle section */ 
- section.bio {
-  font-family: 'Heebo', sans-serif;
-   width: 400px;
-   margin-left:150px;
-   margin-top: 110px;
-   font-size: 22px;
-   padding-left: 50px;
+  /* controls the color of the second-paragraph on about page */
+   #second-paragraph.highlight {
+    color:rgb(54, 2, 52);
+    font-size: 25px;
+    padding-left:20px;
+   }
+
+
+   /* #########################################################################################
+   starting into the section that controls the "contacts" page */ 
+
+ /* controls the looks of the h2 tag contact info on contacts page */
+ h2.contact-info {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  color: rgb(54, 2, 52); 
+  padding-top:20px;
+  padding-left:100px;
  }
 
-  /* controls the style of my contact informaiton and the color */
-  .contactColor span {
+   /* controls the style of my contact informaiton and the color */
+   .contactColor span {
     color: #501B1D;
     font-size: 20px;  
     font-family: 'Heebo', sans-serif;
+    /* padding-left:100px; */
   }
+  
 
- /* controls the placement of the "contact-info" section in column 3 on the page */
- .contact {
-   padding-left: 120px;  
-
+ /* controls the placement of the "contact-info" h2 tag */
+ .contact-info {
+  padding-left: 100px;  
  }
+
+ /* controls the locationo of the bullet point informaiton */
+ .contact {
+  padding-left: 180px;  
+ } 
+
+ /*##########################################################################################
+ starting into the section that controls my "portfolio" page */
+
+/* controls the h2 tag on the portfolio page */
+ .h2-portfolio {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  color: rgb(54, 2, 52); 
+  padding-top:20px;
+  padding-left:100px;
+ }
+ /* controls the margins on the portfolio page */
+ .card {
+  margin-top:100px
+   }
+  
+  .card-img-top {
+  width: 348px;
+  height:auto;
+  border: 15px solid rgb(54, 2, 52);
+  }
 
  /* controling the color of the email, github, and portfolio words */
  .contactColor {
@@ -122,154 +128,51 @@ body {
   font-size:22px;
  }
 
- .footer {
-   /* margin-top: auto; 
-   /* float:left; */
-   /* position:relative;
-   bottom:0;
-   width:100%; */ */
- }
+ 
+ /*##########################################################################################
+ starting into the section that controls my "binx" page */
 
- .footer {
-  /* padding: 30px;
-  clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center; */
-}
-
-/* styles the footer of the document*/
-.footer h2 {
-  /* font-size: 20px; */
-}
-
-/* div.row > div {
-  outline:1px solid grey;
-  padding:8px;
-  text-align:center;
-} */
-
-
-
-
-
-* body portion of CSS style controling background color */
-body {
-    background-color: lightgray; 
- }
-
-  /* controls the design of the top header portion on all pages  */
- header,.header {
-  text-align:center;
-  padding: 100px auto; 
-  background-color:#83677B; 
-  margin-bottom:50px;
-}
-
-/* controls the star coloring and placement in the header within the h1 tag */
- h1 span {
-   color:#501B1D;
-   padding-right:30px;
-   padding-left:30px; 
- }
-
- /* controls the looks of the h1 tag in the html */
- h1 { 
-    font-family: 'Libre Baskerville', serif;
-    font-size: 70px;
-    color: whitesmoke;
-    font-variant:small-caps;
-    margin: 0px auto 40px;
-    widows: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;   
- }
-
- /* controls the looks of the first h2 tag (my name) in the html */
- h2.name {
+ /* controls the look of h2 "about binx" on Binx the Cat page */
+ .binx-name {
   font-family: 'Libre Baskerville', serif;
   font-size: 45px;
-  color: rgb(54, 2, 52);
+  color: rgb(54, 2, 52); 
+  padding-top:20px;
  }
 
- /* controls the looks of the second h2 tag (contact info) in the html */
- .picture-2 {
-  font-family: 'Heebo', sans-serif;
-  font-size: 25px;
-  color: rgb(54, 2, 52);
-  margin-top: 120px;
- }
-
- /* controls the color of the first-paragraph */
- #first-paragraph.highlight {
-  color:rgb(54, 2, 52);
+/* controls the size and bordering around my picture*/
+.picture-binx {
+  width: 270px;
+  height: auto;
+  border: 15px solid rgb(54, 2, 52);
 }
 
-/* controls the color of the second-paragraph */
- #second-paragraph.highlight {
+.picture-binx2 {
+  border: 15px solid rgb(54, 2, 52);
+  width: 300px;
+  height:auto;
+}
+
+.picture-binx1 {
+  border: 15px solid rgb(54, 2, 52);
+  width: 350px;
+  height:auto;
+}
+
+.first-h3 {
+  padding-top:30px;
+  text-align: left;
+  color: rgb(54, 2, 52)
+  }
+
+.second-h3 {
+  padding-top: 100px;
+  color: rgb(54, 2, 52)
+}
+
+#first-paragraph.binx {
   color:rgb(54, 2, 52);
- }
-
-/* controls the size and bordering around my picture */
- img {
-   width: 270px;
-   height: auto;
-   border: 15px solid #501B1D;
- }
-
- /* helps with the layout of the float function */ 
- .clearfix::after {
- content: " ";
- display: block;
- clear: both; 
- } 
-
- /* containter of our page */
- .container {
-   width: 2000px;
-   margin: 0 auto;
- }
-
- /* places element on left or right side of its container, allowing text to wrap around it */ 
- section {
-   float:left;
- }
-
- /* controls the sizing and layout of the first and last sections */
- section.name-image, section.picture-2 {
-   width:300px;
-   padding-left:100px;
- }
-  
- /* controls the sizing and layout of the middle section */ 
- section.bio {
-  font-family: 'Heebo', sans-serif;
-   width: 400px;
-   margin-left:150px;
-   margin-top: 110px;
-   font-size: 22px;
-   padding-left: 50px;
- }
-
-  /* controls the style of my contact informaiton and the color */
-  /* .contactColor span {
-    color: #501B1D;
-    font-size: 20px;  
-    font-family: 'Heebo', sans-serif; */
-  
-
- /* controls the placement of the "contact-info" section in column 3 on the page */
- /* section.picture-2 { */
-   /* padding-left: 220px;   */
- /* } */
-
- /* controling the color of the email, github, and portfolio words */
- /* .contactColor {
-  font-family: 'Heebo', sans-serif;
-  color:#501B1D;
-  font-size:22px; */
- 
-
- .card {
-margin-top:100px
- }
-
+  font-size: 25px;
+  padding-top:20px;
+  padding-right: 40px;
+}
