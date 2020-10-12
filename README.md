@@ -16,7 +16,7 @@ The About me profile page is a small introduction to who I am.
 The contact page contains my contact information.
 ![Getting Started](./asset/readme/portfolio.PNG)
 The portfolio page contains links to my GitHub, Linked-In, and Resume. It also has links to project 1 and three homeworks (where site is deployed and github).
-![Getting Started](./asset/readme/bix.PNG)
+![Getting Started](./asset/readme/binx.PNG)
 Binx the cat is a tab all about my adorable cat Binx and the shelter I adopted him from. 
 
 
@@ -33,7 +33,7 @@ The Dog Friendly Denver application was created by Tony Nolan, Dana Kuglin, Josh
 All other applications were created by Dana Kuglin. 
 
 
-# Features of my homework
+### Features of my homework
 
 * My code utulized Bootstraps grid system (containers, rows, and columns)
 
