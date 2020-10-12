@@ -9,12 +9,6 @@ body {
     background-color: lightgray; 
  }
 
-/* controls the star coloring and placement in the header within the h1 tag */
- /* h1 span {
-   color:#501B1D;
-   padding-right:30px;
-   padding-left:30px; 
- } */
 
  /* controls the looks of the h1 tag across all of the pages */
  h1 { 
@@ -33,6 +27,18 @@ body {
 .jumbotron-jumbotron-fluid {
   background-image: url(flowers.jpeg);
 }
+
+
+.display-4 {
+  text-align: left;
+}
+
+/* .h2Tag {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 45px;
+  color: rgb(54, 2, 52); 
+  padding-top:20px;
+} */
 
  /*##############################################################################################
  starting to control only the look of the "about" page */
@@ -65,7 +71,7 @@ body {
    starting into the section that controls the "contacts" page */ 
 
  /* controls the looks of the h2 tag contact info on contacts page */
- h2.contact-info {
+ .contact-info {
   font-family: 'Libre Baskerville', serif;
   font-size: 45px;
   color: rgb(54, 2, 52); 
@@ -74,7 +80,7 @@ body {
  }
 
    /* controls the style of my contact informaiton and the color */
-   .contactColor span {
+  .contactColor span {
     color: #501B1D;
     font-size: 20px;  
     font-family: 'Heebo', sans-serif;
@@ -83,25 +89,26 @@ body {
   
 
  /* controls the placement of the "contact-info" h2 tag */
- .contact-info {
-  padding-left: 100px;  
- }
+ /* .contact-info {
+  padding-left: 150px;  
+ } */
 
  /* controls the locationo of the bullet point informaiton */
  .contact {
   padding-left: 180px;  
+  padding-top:20px;
  } 
 
  /*##########################################################################################
  starting into the section that controls my "portfolio" page */
 
 /* controls the h2 tag on the portfolio page */
- .h2-portfolio {
+ .h2-portfolio  {
   font-family: 'Libre Baskerville', serif;
   font-size: 45px;
   color: rgb(54, 2, 52); 
   padding-top:20px;
-  padding-left:100px;
+  padding-left:90px;
  }
  /* controls the margins on the portfolio page */
  .card {
