@@ -10,22 +10,23 @@ body {
  }
 
 /* controls the star coloring and placement in the header within the h1 tag */
- h1 span {
+ /* h1 span {
    color:#501B1D;
    padding-right:30px;
    padding-left:30px; 
- }
+ } */
 
  /* controls the looks of the h1 tag across all of the pages */
  h1 { 
   font-family: 'Libre Baskerville', serif;
-  font-size: 70px;
-  color:  whitesmoke;
-  font-variant:small-caps;
   margin: 0px auto 40px;
   widows: 100%;
   padding-top: 30px;
-  padding-bottom: 30px;   
+  padding-bottom: 30px;
+  font-size: 70px;
+  color:  whitesmoke;
+  /* font-variant:small-caps; */
+   
 }
 
 /* controls the jumbotron picutre across all webpages */
@@ -48,24 +49,16 @@ body {
  .img-fluid.pictureOfMe {
   border: 15px solid rgb(54, 2, 52);
   width: 200px;
-  /* max-width: 100%; */
+  max-width: 100%;
   height:auto;
  }
 
-  /* controls the color of the first-paragraph on about page*/
-  #first-paragraph.highlight {
-    color:rgb(54, 2, 52);
-    font-size: 25px;
-    padding-top:120px;
-    padding-left: 20px;
-  }
-  
-  /* controls the color of the second-paragraph on about page */
-   #second-paragraph.highlight {
-    color:rgb(54, 2, 52);
-    font-size: 25px;
-    padding-left:20px;
-   }
+  .paragraph {
+   color:rgb(54, 2, 52);
+   font-size: 27px;
+   padding-top: 90px; 
+   padding-left: 50px;
+  };
 
 
    /* #########################################################################################
