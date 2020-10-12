@@ -10,7 +10,7 @@
 
 
 ### Walk Through
-![Getting Started](./asset/readme/aboutMe.PNG)
+![Getting Started](./asset/readme/aboutme.PNG)
 The About me profile page is a small introduction to who I am. 
 ![Getting Started](./asset/readme/contact.PNG)
 The contact page contains my contact information.
@@ -21,16 +21,16 @@ Binx the cat is a tab all about my adorable cat Binx and the shelter I adopted h
 
 
 ### Project Links
-Group Project 1: https://queek1313.github.io/DogFriendlyDenver/
-Homework 3: https://dakuglin.github.io/password-generator-03/
-Homework 4: https://dakuglin.github.io/codequiz04/
-Homework 6: https://dakuglin.github.io/work-day-scheduler05/
+* Group Project 1: https://queek1313.github.io/DogFriendlyDenver/
+* Homework 3: https://dakuglin.github.io/password-generator-03/
+* Homework 4: https://dakuglin.github.io/codequiz04/
+* Homework 6: https://dakuglin.github.io/work-day-scheduler05/
 
 
 ### Authors
 The Dog Friendly Denver application was created by Tony Nolan, Dana Kuglin, Joshua Thompson, Katie Anilionis, Brenda Miller and Anna Battista.
 
-All other applications were created by Dana Kuglin. 
+All other applications listed in this portfolio were created by Dana Kuglin. 
 
 
 ### Features of my homework
