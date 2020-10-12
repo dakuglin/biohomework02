@@ -1,14 +1,10 @@
 
-/* This is the CSS style sheet for my html files */
-
 /*#############################################################################################
-this is for common styling across the entire browser */
 
 /* body portion of CSS style controling background color */
 body {
     background-color: lightgray; 
  }
-
 
  /* controls the looks of the h1 tag across all of the pages */
  h1 { 
@@ -25,36 +21,19 @@ body {
 
 /* controls the jumbotron picutre across all webpages */
 .jumbotron-jumbotron-fluid {
-  background-image: url(flowers.jpeg);
+  background-image: url(asset/images/flowers.jpeg);
 }
-
 
 .display-4 {
   text-align: left;
 }
 
-/* .h2Tag {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 45px;
-  color: rgb(54, 2, 52); 
-  padding-top:20px;
-} */
-
  /*##############################################################################################
  starting to control only the look of the "about" page */
 
- /* controls the looks of the first h2 tag my name on the about me page */
- .myName {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 45px;
-  color: rgb(54, 2, 52); 
-  padding-top:20px;
- }
-
  /* controls the border color and size of my picutre of me on the about page */
- .img-fluid.pictureOfMe {
+ .pictureOfMe {
   border: 15px solid rgb(54, 2, 52);
-  width: 200px;
   max-width: 100%;
   height:auto;
  }
@@ -62,7 +41,7 @@ body {
   .paragraph {
    color:rgb(54, 2, 52);
    font-size: 27px;
-   padding-top: 90px; 
+   padding-top: 30px; 
    padding-left: 50px;
   };
 
@@ -84,15 +63,8 @@ body {
     color: #501B1D;
     font-size: 20px;  
     font-family: 'Heebo', sans-serif;
-    /* padding-left:100px; */
   }
   
-
- /* controls the placement of the "contact-info" h2 tag */
- /* .contact-info {
-  padding-left: 150px;  
- } */
-
  /* controls the locationo of the bullet point informaiton */
  .contact {
   padding-left: 180px;  
@@ -103,21 +75,21 @@ body {
  starting into the section that controls my "portfolio" page */
 
 /* controls the h2 tag on the portfolio page */
- .h2-portfolio  {
+ /* .h2-portfolio  {
   font-family: 'Libre Baskerville', serif;
   font-size: 45px;
   color: rgb(54, 2, 52); 
   padding-top:20px;
   padding-left:90px;
- }
+ } */
  /* controls the margins on the portfolio page */
  .card {
   margin-top:100px
    }
   
   .card-img-top {
-  width: 348px;
-  height:auto;
+  width: 350px;
+  height:350px;
   border: 15px solid rgb(54, 2, 52);
   }
 
