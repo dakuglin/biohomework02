@@ -95,13 +95,14 @@ body {
  /* controls the margins on the portfolio page */
  .card {
   margin-top:100px
-   }
+}
   
-  .card-img-top {
-  width: 350px;
-  height:350px;
+.card-img-top {
+  /* width: 350px;
+  height:350px; */
+  margin: auto;
   border: 15px solid rgb(54, 2, 52);
-  }
+}
 
  /* controling the color of the email, github, and portfolio words */
  .contactColor {
